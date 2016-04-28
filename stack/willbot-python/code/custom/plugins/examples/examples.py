@@ -174,4 +174,4 @@ class ExamplesPlugin(WillPlugin):
             "joke_answer": joke_answer
         }
 
-        self.say(rendered_template("dkcwd_team_joke.html", context), mhtml=True, notify=True)
+        self.say(rendered_template("dkcwd_team_joke.html", context), html=True, notify=True)
